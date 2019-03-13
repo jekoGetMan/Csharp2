@@ -12,7 +12,7 @@ namespace tst
     //Животные
     class Animals
     {
-        //Утка tst
+        //Утка testik
         class Duck : Animals
         {
 
