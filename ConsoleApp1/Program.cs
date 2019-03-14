@@ -16,7 +16,7 @@ namespace tst
             Random rnd = new Random();    
             
             Console.WriteLine("Поираем? [Y/N]" );
-            Console.ReadKey();
+//            Console.ReadKey();
 
             string input = Console.ReadLine();
 
@@ -55,9 +55,13 @@ namespace tst
                     else if (defNum == userNum)
                     {
                         Console.WriteLine("You win!");
+                        loss = false;
                     }
 
+                    Console.ReadKey(true);
                 }
+                Console.Write("Играем еще? [Y/N");
+                input = Console.ReadLine();
             }
 
 
