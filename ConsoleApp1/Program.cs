@@ -1,6 +1,6 @@
-﻿using NUnit.Framework;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
+﻿//using NUnit.Framework;
+//using OpenQA.Selenium;
+//using OpenQA.Selenium.Chrome;
 using System;
 using System.Collections;
 using System.Diagnostics;
@@ -12,31 +12,13 @@ namespace tst
     {
         static void Main(string[] args)
         {
-           
-        }
-    }
-    //Животные
-    class Animals
-    {
-        //Утка testik
-        class Duck : Animals
-        {
-            //lol   
-        }
-        //Страус
-        class Straus : Animals
-        {
-
-        }
-        //Собака
-        class Dog : Animals
-        {
-
-        }
-        //Кот
-        class cat : Animals
-        {
+            // Стучимся в класс рандом через ссылку
+            Random rnd = new Random();    
+            
+            Console.WriteLine("Поираем? [Y/N]" );
+            Console.ReadKey();
 
         }
     }
 }
+    
