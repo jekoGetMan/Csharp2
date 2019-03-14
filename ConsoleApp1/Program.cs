@@ -50,7 +50,7 @@ namespace tst
                     }
                     else if (defNum > userNum)
                     {
-                        Console.WriteLine("Too Low!");       
+                        Console.WriteLine("Too Low!");    //lol
                     }
                     else if (defNum == userNum)
                     {
