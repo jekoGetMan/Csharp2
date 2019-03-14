@@ -18,17 +18,17 @@ namespace tst
 
         }
         //Страус
-        class mammals : Animals
+        class Straus : Animals
         {
 
         }
         //Собака
-        class artiodactyls : Animals
+        class Dog : Animals
         {
 
         }
         //Кот
-        class horse : artiodactyls
+        class cat : Animals
         {
 
         }
