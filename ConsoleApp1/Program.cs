@@ -44,6 +44,19 @@ namespace tst
                         }
                     }
 
+                    if (defNum < userNum)
+                    {
+                        Console.WriteLine("Too high");
+                    }
+                    else if (defNum > userNum)
+                    {
+                        Console.WriteLine("Too Low!");       
+                    }
+                    else if (defNum == userNum)
+                    {
+                        Console.WriteLine("You win!");
+                    }
+
                 }
             }
 
