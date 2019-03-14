@@ -18,6 +18,36 @@ namespace tst
             Console.WriteLine("Поираем? [Y/N]" );
             Console.ReadKey();
 
+            string input = Console.ReadLine();
+
+            while (input == "y")
+            {
+                // Вызываем метод next класса rnd
+                int defNum = rnd.Next(1, 101);
+                int userNum = 0;
+
+                bool loss = true;
+
+                while (loss)
+                {
+                    bool isValidNum = false;
+                    while (!isValidNum)
+                    {
+                        Console.WriteLine("Enter your guess: ");
+                        input = Console.ReadLine();
+
+                        isValidNum = Int32.TryParse(input, out userNum);
+
+                        if (!isValidNum)
+                        {
+                            Console.WriteLine("That is not a Number!");
+                        }
+                    }
+
+                }
+            }
+
+
         }
     }
 }
